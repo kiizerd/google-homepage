@@ -1,8 +1,8 @@
 body, html {
     margin: 0;
     padding: 0;
-    height: 95%;
-    width: 95%;
+    height: auto;
+    width: auto;
     box-sizing: border-box;
 }
 
@@ -11,7 +11,7 @@ body, html {
 }
 
 body {
-    height: 100%;
+    max-width: 99.5%;
     font-family: arial, sans-serif;
     color: #222;
 }
@@ -82,9 +82,17 @@ nav {
     opacity: 100%;
 }
 
+main {
+    width: 95%;
+    margin: 0 auto;
+
+}
+
 #logo {
     text-align: center;
-    margin-top: 190px;
+    width: 100%;
+    margin-top: 12.5%;
+    margin-bottom: 20px;
 }
 
 .form-container {
@@ -97,7 +105,8 @@ nav {
 }
 
 .search-box {
-    width: 427px;
+    width: 460px;
+    height: 45px;
     text-align: center;
     margin: 0 auto 10px;
     border: 1px solid #dfe1e5;
@@ -110,8 +119,10 @@ nav {
 
 #search {
     width: 85%;
-    height: 35px;
+    height: 40px;
     border: none;
+    outline: none;
+    margin: 3px;    
 
 }
 
@@ -123,7 +134,7 @@ button {
     border-radius: 4px;
     font-size: 13px;
     color: #666666;
-    margin: 20px 5px 10px 5px;
+    margin: 10px 10px 20px 5px;
 }
 
 button:hover {
@@ -157,7 +168,7 @@ button:hover {
 
 footer nav{
     position: absolute;
-    bottom: 5px;
+    bottom: 4px;
     font-size: 14px;
 }
 
